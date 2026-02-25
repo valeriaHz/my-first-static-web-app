@@ -1,17 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Exploración del Espacio</title>
 </head>
 
 <body>
+  <div class="stars"></div>
+  
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo">🚀 Espacio</h2>
+      <ul class="nav-links">
+        <li><a href="#planetas">Planetas</a></li>
+        <li><a href="#galaxias">Galaxias</a></li>
+        <li><a href="#exploracion">Exploración</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Bienvenido al Universo</h1>
+      <p>Descubre los misterios del cosmos infinito</p>
+      <button class="btn-explore">Comenzar Exploración</button>
+    </div>
+  </header>
+
   <main>
-    <h1>Holi :3 </h1>
+    <!-- Sección de Planetas -->
+    <section id="planetas" class="section">
+      <h2 class="section-title">Los Planetas de Nuestro Sistema Solar</h2>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-icon">🔴</div>
+          <h3>Mercurio</h3>
+          <p>El planeta más cercano al Sol, pequeño y rocoso con temperaturas extremas.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🟡</div>
+          <h3>Venus</h3>
+          <p>El planeta más caliente con una atmósfera densa de ácido sulfúrico.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔵</div>
+          <h3>Tierra</h3>
+          <p>Nuestro hogar, el único planeta conocido con vida abundante.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔴</div>
+          <h3>Marte</h3>
+          <p>El planeta rojo, objetivo de futuras misiones de exploración humana.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🟠</div>
+          <h3>Júpiter</h3>
+          <p>El gigante gaseoso más grande de nuestro sistema solar.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🟡</div>
+          <h3>Saturno</h3>
+          <p>Famoso por sus espectaculares anillos de hielo y roca.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Galaxias -->
+    <section id="galaxias" class="section section-dark">
+      <h2 class="section-title">Galaxias Fascinantes</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <h3>Vía Láctea</h3>
+          <p>Nuestra galaxia espiral contiene entre 100-400 mil millones de estrellas. Es tan grande que la luz tarda 100,000 años en cruzarla de un extremo a otro.</p>
+        </div>
+        <div class="info-item">
+          <h3>Andrómeda</h3>
+          <p>La galaxia más cercana a la Vía Láctea. Es tan grande que abarca 200,000 años luz de diámetro y contiene un billón de estrellas.</p>
+        </div>
+        <div class="info-item">
+          <h3>Sombrero</h3>
+          <p>Una galaxia lenticular ubicada a 29 millones de años luz de la Tierra. Su apariencia distintiva le da el nombre de esta magnífica galaxia.</p>
+        </div>
+        <div class="info-item">
+          <h3>M87</h3>
+          <p>Una galaxia elíptica gigante que contiene el primer agujero negro fotografiado por la humanidad en 2019.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Exploración -->
+    <section id="exploracion" class="section">
+      <h2 class="section-title">La Exploración Espacial</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>1961 - Primer Humano en el Espacio</h3>
+            <p>Yuri Gagarin se convierte en el primer ser humano en viajar al espacio.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>1969 - Llegada a la Luna</h3>
+            <p>Neil Armstrong es el primer humano en pisar la Luna durante la misión Apollo 11.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>1995 - Telescopio Espacial Hubble</h3>
+            <p>El Hubble revoluciona nuestra comprensión del universo con imágenes asombrosas.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>2024 - Era de la Exploración Privada</h3>
+            <p>Empresas privadas abren nuevas posibilidades para la exploración espacial.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Exploración del Espacio. Viajando a las estrellas.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
